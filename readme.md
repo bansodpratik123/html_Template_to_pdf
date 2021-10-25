@@ -24,13 +24,13 @@ Examples:
 
 
 ## Why HTML template to PDF?
-    We can create pdf with python standalone but its origin (0,0)  of content start from bottom left. 
+   We can create pdf with python standalone but its origin (0,0)  of content start from bottom left. 
         - Now imagine how difficult it would be to create any format. 
         - Need to to check and maintain sentence at specific coordinates. 
         - More time consuming if we wish add or remove any sentence from format.
 
 
-    **Xhtml2pdf ✔️** 
+   **Xhtml2pdf ✔️** 
         - What if we able create desired template easily and convert it to pdf. 
             The best and easy way to create format is render information on html page.
         - xhtml2pdf library helps to convert html page to pdf easily
@@ -71,7 +71,7 @@ Basic requirements for html to pdf -
     from xhtml2pdf import pisa
     from django.contrib.staticfiles import finders
     
-    def render_pdf_view(request):
+    # def render_pdf_view(request):
         template_path = 'user_printer.html'
         context = {'myvar': 'this is your template context'}
     
