@@ -70,8 +70,8 @@ Basic requirements for html to pdf -
     from django.template.loader import get_template
     from xhtml2pdf import pisa
     from django.contrib.staticfiles import finders
-    
-    # def render_pdf_view(request):
+    ```
+    def render_pdf_view(request):
         template_path = 'user_printer.html'
         context = {'myvar': 'this is your template context'}
     
@@ -88,7 +88,7 @@ Basic requirements for html to pdf -
         # if error then show some funy view
         if pisa_status.err:
            return HttpResponse('We had some errors <pre>' + html + '</pre>')
-        return response
+        return response```
 
 **Content-Dispositin**:
 
