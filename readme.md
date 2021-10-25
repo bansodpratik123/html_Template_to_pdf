@@ -1,9 +1,10 @@
 # HTML Template to PDF in Django 
 
 ## What is pdf?
-    PDF stands for "portable document format".  Essentially, the format is used when you need to save files that cannot be modified but still need to be easily shared and printed.  Today almost everyone has a version of Adobe Reader or other program on their computer that can read a PDF file.
+
+   PDF stands for "portable document format".  Essentially, the format is used when you need to save files that cannot be modified but still need to be easily shared and printed.  Today almost everyone has a version of Adobe Reader or other program on their computer that can read a PDF file.
     
-    Important:  Once you have saved a document as a PDF file, you cannot convert it back to a Microsoft Office file format without specialized software or a third-party add-in.
+   Important:  Once you have saved a document as a PDF file, you cannot convert it back to a Microsoft Office file format without specialized software or a third-party add-in.
 
 
 ## Requirement of pdf in Django?
