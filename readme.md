@@ -8,9 +8,9 @@
 
 
 ## Requirement of pdf in Django?
-    - We can create pdf for generation of Reports, Invoice, Receipts and many more…
-    - Can maintain documents and share with other easily
-    - No need to connect with server to check the records
+   - We can create pdf for generation of Reports, Invoice, Receipts and many more…
+   - Can maintain documents and share with other easily
+   - No need to connect with server to check the records
 
 
 Examples:
@@ -92,18 +92,18 @@ Basic requirements for html to pdf -
 
 **Content-Dispositin**:
 
-    In a regular HTTP response, the `**Content-Disposition**` response header is a header indicating if the content is expected to be displayed *inline* in the browser, that is, as a Web page or as part of a Web page, or as an *attachment*, that is downloaded and saved locally.
+   In a regular HTTP response, the `**Content-Disposition**` response header is a header indicating if the content is expected to be displayed *inline* in the browser, that is, as a Web page or as part of a Web page, or as an *attachment*, that is downloaded and saved locally.
 
 
-    Content-Disposition: inline
-    Content-Disposition: attachment
-    Content-Disposition: attachment; filename="filename.pdf"
+   Content-Disposition: inline
+   Content-Disposition: attachment
+   Content-Disposition: attachment; filename="filename.pdf"
 
 
 ## 3. Create html template to convert to pdf:
-    Usually internal css is preferred.
-    Because xhtml2pdf supports limited numbers of standard CSS properties. 
-    It does not support to bootstrap.
+   Usually internal css is preferred.
+   Because xhtml2pdf supports limited numbers of standard CSS properties. 
+   It does not support to bootstrap.
     
     <!DOCTYPE html>
     <html lang="en">
