@@ -64,13 +64,13 @@ Basic requirements for html to pdf -
 2. send context
 3. something/method which will convert html to pdf
 
-
+    ```
     from django.conf import settings
     from django.http import HttpResponse
     from django.template.loader import get_template
     from xhtml2pdf import pisa
     from django.contrib.staticfiles import finders
-    ```
+    
     def render_pdf_view(request):
         template_path = 'user_printer.html'
         context = {'myvar': 'this is your template context'}
